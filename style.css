@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3C697;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    background: #EBEBEB;
+    box-shadow: 11px 11px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 41.4rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+.login {
+    border: none;
+    background-color: #013018;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #EBEBEB;
+    font-family: 'Montserrat';
+    width: 100px;
+    height: 30px;
+    }
+
+.Titulo {
+    font-family: 'Lexend';
+    font-style: ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.login:hover {
+    background-color: #A3C697;
+}
+
+.header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #013018;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: 1rem; 
+    margin-bottom: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+}
+
+.input-box input {
+    box-sizing: border-box;
+    background: #EBEBEB;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #c5c5c5e4
+}
+
+.input-box input:hover {
+    background-color: #E4E4E4E4;
+}
+
+.texto {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+}
+
+.gender-title {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+margin-bottom: 12px;
+}
+
+.gender-group {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 450;
+font-size: 15px;
+margin-bottom: 35px;
+}
+
+.continue-button{
+    border: none;
+    background-color: #013018;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #EBEBEB;
+    font-family: 'Montserrat';
+    width: 450px;
+    height: 30px;    
+
+}
+
+.continue-button:hover{
+    background-color: #A3C697;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
